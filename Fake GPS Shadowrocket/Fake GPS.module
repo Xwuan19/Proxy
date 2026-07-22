@@ -1,5 +1,5 @@
-#!name=iOS Location Spoofer Nightmarket Server
-#!desc=Chặn các tọa độ GPS do máy chủ định vị của Apple trả về và thay thế chúng bằng một vị trí tùy chỉnh. Hoạt động với Shadowrocket/Surge.
+#!name=iOS Location Spoofer Xwuan
+#!desc=Chặn các tọa độ GPS do máy chủ định vị của Apple trả về và thay thế chúng bằng một vị trí tùy chỉnh.
 #!version=1
 
 [Script]
@@ -7,9 +7,3 @@ iOS Location Spoofer = type=http-response,pattern=^https?:\/\/(?:gs-loc(?:-cn)?\
 
 [MITM]
 hostname = %APPEND% gs-loc.apple.com, gs-loc-cn.apple.com, bluedot.is.autonavi.com, bluedot.is.autonavi.com.gds.alibabadns.com
-
-# -----------------------------
-# Author
-# -----------------------------
-# 👤 Author: mekos2772 - NightmarketServer
-# 💬 Discord: https://discord.gg/juY9tw5AJY
